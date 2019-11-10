@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eureka0225.github.io/luogu-project/</id>
     <title>LuoguProject</title>
-    <updated>2019-11-10T05:59:10.793Z</updated>
+    <updated>2019-11-10T06:10:24.414Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eureka0225.github.io/luogu-project/"/>
     <link rel="self" href="https://eureka0225.github.io/luogu-project//atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://eureka0225.github.io/luogu-project//images/avatar.png</logo>
     <icon>https://eureka0225.github.io/luogu-project//favicon.ico</icon>
     <rights>All rights reserved 2019, LuoguProject</rights>
+    <entry>
+        <title type="html"><![CDATA[P1000]]></title>
+        <id>https://eureka0225.github.io/luogu-project//post/p1000</id>
+        <link href="https://eureka0225.github.io/luogu-project//post/p1000">
+        </link>
+        <updated>2019-11-10T06:08:54.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="超-级-玛-丽">超 级 玛 丽</h1>
+<p>洛谷的试机题，并不难，直接输出即可</p>
+<pre><code class="language-cpp">#include&lt;iostream&gt;
+#include&lt;cstdio&gt;
+int main()
+{
+ printf(&quot;                ********\n&quot;);
+ printf(&quot;               ************\n&quot;);
+ printf(&quot;               ####....#.\n&quot;);
+ printf(&quot;             #..###.....##....\n&quot;);
+ printf(&quot;             ###.......######              ###            ###\n&quot;);
+ printf(&quot;                ...........               #...#          #...#\n&quot;);
+ printf(&quot;               ##*#######                 #.#.#          #.#.#\n&quot;);
+ printf(&quot;            ####*******######             #.#.#          #.#.#\n&quot;);
+ printf(&quot;           ...#***.****.*###....          #...#          #...#\n&quot;);
+ printf(&quot;           ....**********##.....           ###            ###\n&quot;);
+ printf(&quot;           ....****    *****....\n&quot;);
+ printf(&quot;             ####        ####\n&quot;);
+ printf(&quot;           ######        ######\n&quot;);
+ printf(&quot;##############################################################\n&quot;);
+ printf(&quot;#...#......#.##...#......#.##...#......#.##------------------#\n&quot;);
+ printf(&quot;###########################################------------------#\n&quot;);
+ printf(&quot;#..#....#....##..#....#....##..#....#....#####################\n&quot;);
+ printf(&quot;##########################################    #----------#\n&quot;);
+ printf(&quot;#.....#......##.....#......##.....#......#    #----------#\n&quot;);
+ printf(&quot;##########################################    #----------#\n&quot;);
+ printf(&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#\n&quot;);
+ printf(&quot;##########################################    ############\n&quot;);
+ return 0; 
+} 
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://eureka0225.github.io/luogu-project//post/about</id>
