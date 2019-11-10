@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eureka0225.github.io/luogu-project/</id>
     <title>LuoguProject</title>
-    <updated>2019-11-10T06:30:15.709Z</updated>
+    <updated>2019-11-10T06:30:25.300Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eureka0225.github.io/luogu-project/"/>
     <link rel="self" href="https://eureka0225.github.io/luogu-project//atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://eureka0225.github.io/luogu-project//images/avatar.png</logo>
     <icon>https://eureka0225.github.io/luogu-project//favicon.ico</icon>
     <rights>All rights reserved 2019, LuoguProject</rights>
+    <entry>
+        <title type="html"><![CDATA[P1085]]></title>
+        <id>https://eureka0225.github.io/luogu-project//post/p1085</id>
+        <link href="https://eureka0225.github.io/luogu-project//post/p1085">
+        </link>
+        <updated>2019-11-10T06:27:29.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="不高兴的津津">不高兴的津津</h1>
+<p>简单的数学计算</p>
+<pre><code class="language-cpp">#include&lt;iostream&gt;
+using namespace std;
+int main()
+{
+    int a,b,sum,max=0,day=0,i;
+    for(i=1;i&lt;8;i++)
+    {
+        cin&gt;&gt;a&gt;&gt;b;
+        sum=a+b;
+        if((sum&gt;8) &amp;&amp; (sum&gt;max)) max=sum,day=i;
+    }
+    cout&lt;&lt;day; 
+    return 0;
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[P1001]]></title>
         <id>https://eureka0225.github.io/luogu-project//post/p1001</id>

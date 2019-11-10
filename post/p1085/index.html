@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>P1000 | LuoguProject</title>
+<title>P1085 | LuoguProject</title>
 <meta name="description" content="温故而知新" />
 <link rel="shortcut icon" href="https://eureka0225.github.io/luogu-project//favicon.ico?v=1573367423599">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -73,7 +73,7 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              P1000
+              P1085
             </h2>
             <div class="post-info">
               <span>
@@ -85,46 +85,30 @@
               
             </div>
             
-              <img class="post-feature-image" src="https://eureka0225.github.io/luogu-project//post-images/p1000.jpg" alt="">
-            
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h1 id="超-级-玛-丽">超 级 玛 丽</h1>
-<p>洛谷的试机题，并不难，直接输出即可</p>
+                <h1 id="不高兴的津津">不高兴的津津</h1>
+<p>简单的数学计算</p>
 <pre><code class="language-cpp">#include&lt;iostream&gt;
-#include&lt;cstdio&gt;
+using namespace std;
 int main()
 {
- printf(&quot;                ********\n&quot;);
- printf(&quot;               ************\n&quot;);
- printf(&quot;               ####....#.\n&quot;);
- printf(&quot;             #..###.....##....\n&quot;);
- printf(&quot;             ###.......######              ###            ###\n&quot;);
- printf(&quot;                ...........               #...#          #...#\n&quot;);
- printf(&quot;               ##*#######                 #.#.#          #.#.#\n&quot;);
- printf(&quot;            ####*******######             #.#.#          #.#.#\n&quot;);
- printf(&quot;           ...#***.****.*###....          #...#          #...#\n&quot;);
- printf(&quot;           ....**********##.....           ###            ###\n&quot;);
- printf(&quot;           ....****    *****....\n&quot;);
- printf(&quot;             ####        ####\n&quot;);
- printf(&quot;           ######        ######\n&quot;);
- printf(&quot;##############################################################\n&quot;);
- printf(&quot;#...#......#.##...#......#.##...#......#.##------------------#\n&quot;);
- printf(&quot;###########################################------------------#\n&quot;);
- printf(&quot;#..#....#....##..#....#....##..#....#....#####################\n&quot;);
- printf(&quot;##########################################    #----------#\n&quot;);
- printf(&quot;#.....#......##.....#......##.....#......#    #----------#\n&quot;);
- printf(&quot;##########################################    #----------#\n&quot;);
- printf(&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#\n&quot;);
- printf(&quot;##########################################    ############\n&quot;);
- return 0; 
-} 
+    int a,b,sum,max=0,day=0,i;
+    for(i=1;i&lt;8;i++)
+    {
+        cin&gt;&gt;a&gt;&gt;b;
+        sum=a+b;
+        if((sum&gt;8) &amp;&amp; (sum&gt;max)) max=sum,day=i;
+    }
+    cout&lt;&lt;day; 
+    return 0;
+}
 </code></pre>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li><a href="#%E8%B6%85-%E7%BA%A7-%E7%8E%9B-%E4%B8%BD">超 级 玛 丽</a></li>
+<li><a href="#%E4%B8%8D%E9%AB%98%E5%85%B4%E7%9A%84%E6%B4%A5%E6%B4%A5">不高兴的津津</a></li>
 </ul>
 
               </div>
@@ -135,9 +119,9 @@ int main()
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://eureka0225.github.io/luogu-project//post/about">
+            <a href="https://eureka0225.github.io/luogu-project//post/p1001">
               <h3 class="post-title">
-                关于
+                P1001
               </h3>
             </a>
           </div>
