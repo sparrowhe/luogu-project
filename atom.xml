@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eureka0225.github.io/luogu-project/</id>
     <title>LuoguProject</title>
-    <updated>2019-11-10T06:14:59.153Z</updated>
+    <updated>2019-11-10T06:16:57.261Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eureka0225.github.io/luogu-project/"/>
     <link rel="self" href="https://eureka0225.github.io/luogu-project//atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://eureka0225.github.io/luogu-project//images/avatar.png</logo>
     <icon>https://eureka0225.github.io/luogu-project//favicon.ico</icon>
     <rights>All rights reserved 2019, LuoguProject</rights>
+    <entry>
+        <title type="html"><![CDATA[P1001]]></title>
+        <id>https://eureka0225.github.io/luogu-project//post/p1001</id>
+        <link href="https://eureka0225.github.io/luogu-project//post/p1001">
+        </link>
+        <updated>2019-11-10T06:15:14.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="ab-problem">A+B Problem</h1>
+<p>数字操作</p>
+<pre><code class="language-cpp">#include&lt;iostream&gt;
+using namespace std;
+int main(){
+    int a,b;
+    cin&gt;&gt;a&gt;&gt;b;
+    cout&lt;&lt;a+b&lt;&lt;endl;
+    return 0; //结束🌶
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[P1000]]></title>
         <id>https://eureka0225.github.io/luogu-project//post/p1000</id>
